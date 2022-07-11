@@ -1,0 +1,234 @@
+import tkinter as tk
+
+plane = tk.Tk()
+plane.title("CS Airlines ")
+plane.geometry("500x700")
+
+#First Class Rows A - C
+#Row A
+first_class = tk.Label(text="First Class").grid(row=1, column=0)
+rowA = tk.Label(text="Row A:").grid(row=2, column=0)
+A1 = tk.Button(text="A1", bg='green', activebackground='white').grid(row=2, column=1)
+A2 = tk.Button(text="A2", bg='green', activebackground='white').grid(row=2, column=2)
+A3 = tk.Button(text="A3", bg='green', activebackground='white').grid(row=2, column=3)
+Aasile = tk.Label(text="       ").grid(row=2, column=4)
+A4 = tk.Button(text="A4", bg='green', activebackground='white').grid(row=2, column=5)
+A5 = tk.Button(text="A5", bg='green', activebackground='white').grid(row=2, column=6)
+A6 = tk.Button(text="A6", bg='green', activebackground='white').grid(row=2, column=7)
+A7 = tk.Button(text="A7", bg='green', activebackground='white').grid(row=2, column=8)
+
+#Row B
+rowB = tk.Label(text="Row B:").grid(row=3, column=0)
+B1 = tk.Button(text="B1", bg='green', activebackground='white').grid(row=3, column=1)
+B2 = tk.Button(text="B2", bg='green', activebackground='white').grid(row=3, column=2)
+B3 = tk.Button(text="B3", bg='green', activebackground='white').grid(row=3, column=3)
+Basile = tk.Label(text="       ").grid(row=3, column=4)
+B4 = tk.Button(text="B4", bg='green', activebackground='white').grid(row=3, column=5)
+B5 = tk.Button(text="B5", bg='green', activebackground='white').grid(row=3, column=6)
+B6 = tk.Button(text="B6", bg='green', activebackground='white').grid(row=3, column=7)
+B7 = tk.Button(text="B7", bg='green', activebackground='white').grid(row=3, column=8)
+
+#Row C
+rowC = tk.Label(text="Row C:").grid(row=4, column=0)
+C1 = tk.Button(text="C1", bg='green', activebackground='white').grid(row=4, column=1)
+C2 = tk.Button(text="C2", bg='green', activebackground='white').grid(row=4, column=2)
+C3 = tk.Button(text="C3", bg='green', activebackground='white').grid(row=4, column=3)
+Casile = tk.Label(text="       ").grid(row=4, column=4)
+C4 = tk.Button(text="C4", bg='green', activebackground='white').grid(row=4, column=5)
+C5 = tk.Button(text="C5", bg='green', activebackground='white').grid(row=4, column=6)
+C6 = tk.Button(text="C6", bg='green', activebackground='white').grid(row=4, column=7)
+C7 = tk.Button(text="C7", bg='green', activebackground='white').grid(row=4, column=8)
+
+#Business Class Rows D-G
+#Row D
+business_class = tk.Label(text="Business Class").grid(row=5, column=0)
+rowD = tk.Label(text="Row D:").grid(row=6, column=0)
+D1 = tk.Button(text="D1", bg='green', activebackground='white').grid(row=6, column=1)
+D2 = tk.Button(text="D2", bg='green', activebackground='white').grid(row=6, column=2)
+D3 = tk.Button(text="D3", bg='green', activebackground='white').grid(row=6, column=3)
+Dasile = tk.Label(text="       ").grid(row=6, column=4)
+D4 = tk.Button(text="D4", bg='green', activebackground='white').grid(row=6, column=5)
+D5 = tk.Button(text="D5", bg='green', activebackground='white').grid(row=6, column=6)
+D6 = tk.Button(text="D6", bg='green', activebackground='white').grid(row=6, column=7)
+D7 = tk.Button(text="D7", bg='green', activebackground='white').grid(row=6, column=8)
+
+#Row E
+rowE = tk.Label(text="Row E:").grid(row=7, column=0)
+E1 = tk.Button(text="E1", bg='green', activebackground='white').grid(row=7, column=1)
+E2 = tk.Button(text="E2", bg='green', activebackground='white').grid(row=7, column=2)
+E3 = tk.Button(text="E3", bg='green', activebackground='white').grid(row=7, column=3)
+Easile = tk.Label(text="       ").grid(row=7, column=4)
+E4 = tk.Button(text="E4", bg='green', activebackground='white').grid(row=7, column=5)
+E5 = tk.Button(text="E5", bg='green', activebackground='white').grid(row=7, column=6)
+E6 = tk.Button(text="E6", bg='green', activebackground='white').grid(row=7, column=7)
+E7 = tk.Button(text="E7", bg='green', activebackground='white').grid(row=7, column=8)
+
+#Row F
+rowF = tk.Label(text="Row F:").grid(row=8, column=0)
+F1 = tk.Button(text="F1", bg='green', activebackground='white').grid(row=8, column=1)
+F2 = tk.Button(text="F2", bg='green', activebackground='white').grid(row=8, column=2)
+F3 = tk.Button(text="F3", bg='green', activebackground='white').grid(row=8, column=3)
+Fasile = tk.Label(text="       ").grid(row=8, column=4)
+F4 = tk.Button(text="F4", bg='green', activebackground='white').grid(row=8, column=5)
+F5 = tk.Button(text="F5", bg='green', activebackground='white').grid(row=8, column=6)
+F6 = tk.Button(text="F6", bg='green', activebackground='white').grid(row=8, column=7)
+F7 = tk.Button(text="F7", bg='green', activebackground='white').grid(row=8, column=8)
+
+#Row G
+rowG = tk.Label(text="Row G:").grid(row=9, column=0)
+G1 = tk.Button(text="G1", bg='green', activebackground='white').grid(row=9, column=1)
+G2 = tk.Button(text="G2", bg='green', activebackground='white').grid(row=9, column=2)
+G3 = tk.Button(text="G3", bg='green', activebackground='white').grid(row=9, column=3)
+Gasile = tk.Label(text="       ").grid(row=9, column=4)
+G4 = tk.Button(text="G4", bg='green', activebackground='white').grid(row=9, column=5)
+G5 = tk.Button(text="G5", bg='green', activebackground='white').grid(row=9, column=6)
+G6 = tk.Button(text="G6", bg='green', activebackground='white').grid(row=9, column=7)
+G7 = tk.Button(text="G7", bg='green', activebackground='white').grid(row=9, column=8)
+
+#Economy Class Rows H-T
+#Row H
+economy_class = tk.Label(text="Economy Class").grid(row=10, column=0)
+rowH = tk.Label(text="Row H:").grid(row=11, column=0)
+H1 = tk.Button(text="H1", bg='green', activebackground='white').grid(row=11, column=1)
+H2 = tk.Button(text="H2", bg='green', activebackground='white').grid(row=11, column=2)
+H3 = tk.Button(text="H3", bg='green', activebackground='white').grid(row=11, column=3)
+Hasile = tk.Label(text="       ").grid(row=11, column=4)
+H4 = tk.Button(text="H4", bg='green', activebackground='white').grid(row=11, column=5)
+H5 = tk.Button(text="H5", bg='green', activebackground='white').grid(row=11, column=6)
+H6 = tk.Button(text="H6", bg='green', activebackground='white').grid(row=11, column=7)
+H7 = tk.Button(text="H7", bg='green', activebackground='white').grid(row=11, column=8)
+
+#Row I
+rowI = tk.Label(text="Row I:").grid(row=12, column=0)
+I1 = tk.Button(text="I1", bg='green', activebackground='white').grid(row=12, column=1)
+I2 = tk.Button(text="I2", bg='green', activebackground='white').grid(row=12, column=2)
+I3 = tk.Button(text="I3", bg='green', activebackground='white').grid(row=12, column=3)
+Iasile = tk.Label(text="       ").grid(row=12, column=4)
+I4 = tk.Button(text="I4", bg='green', activebackground='white').grid(row=12, column=5)
+I5 = tk.Button(text="I5", bg='green', activebackground='white').grid(row=12, column=6)
+I6 = tk.Button(text="I6", bg='green', activebackground='white').grid(row=12, column=7)
+I7 = tk.Button(text="I7", bg='green', activebackground='white').grid(row=12, column=8)
+
+#Row J
+rowJ = tk.Label(text="Row J:").grid(row=13, column=0)
+J1 = tk.Button(text="J1", bg='green', activebackground='white').grid(row=13, column=1)
+J2 = tk.Button(text="J2", bg='green', activebackground='white').grid(row=13, column=2)
+J3 = tk.Button(text="J3", bg='green', activebackground='white').grid(row=13, column=3)
+Jasile = tk.Label(text="       ").grid(row=13, column=4)
+J4 = tk.Button(text="J4", bg='green', activebackground='white').grid(row=13, column=5)
+J5 = tk.Button(text="J5", bg='green', activebackground='white').grid(row=13, column=6)
+J6 = tk.Button(text="J6", bg='green', activebackground='white').grid(row=13, column=7)
+J7 = tk.Button(text="J7", bg='green', activebackground='white').grid(row=13, column=8)
+
+#Row K
+rowK = tk.Label(text="Row K:").grid(row=14, column=0)
+K1 = tk.Button(text="K1", bg='green', activebackground='white').grid(row=14, column=1)
+K2 = tk.Button(text="K2", bg='green', activebackground='white').grid(row=14, column=2)
+K3 = tk.Button(text="K3", bg='green', activebackground='white').grid(row=14, column=3)
+Kasile = tk.Label(text="       ").grid(row=14, column=4)
+K4 = tk.Button(text="K4", bg='green', activebackground='white').grid(row=14, column=5)
+K5 = tk.Button(text="K5", bg='green', activebackground='white').grid(row=14, column=6)
+K6 = tk.Button(text="K6", bg='green', activebackground='white').grid(row=14, column=7)
+K7 = tk.Button(text="K7", bg='green', activebackground='white').grid(row=14, column=8)
+
+#Row L
+rowL = tk.Label(text="Row L:").grid(row=15, column=0)
+L1 = tk.Button(text="L1", bg='green', activebackground='white').grid(row=15, column=1)
+L2 = tk.Button(text="L2", bg='green', activebackground='white').grid(row=15, column=2)
+L3 = tk.Button(text="L3", bg='green', activebackground='white').grid(row=15, column=3)
+Lasile = tk.Label(text="       ").grid(row=15, column=4)
+L4 = tk.Button(text="L4", bg='green', activebackground='white').grid(row=15, column=5)
+L5 = tk.Button(text="L5", bg='green', activebackground='white').grid(row=15, column=6)
+L6 = tk.Button(text="L6", bg='green', activebackground='white').grid(row=15, column=7)
+L7 = tk.Button(text="L7", bg='green', activebackground='white').grid(row=15, column=8)
+
+#Row M
+rowM = tk.Label(text="Row M:").grid(row=16, column=0)
+M1 = tk.Button(text="M1", bg='green', activebackground='white').grid(row=16, column=1)
+M2 = tk.Button(text="M2", bg='green', activebackground='white').grid(row=16, column=2)
+M3 = tk.Button(text="M3", bg='green', activebackground='white').grid(row=16, column=3)
+Masile = tk.Label(text="       ").grid(row=16, column=4)
+M4 = tk.Button(text="M4", bg='green', activebackground='white').grid(row=16, column=5)
+M5 = tk.Button(text="M5", bg='green', activebackground='white').grid(row=16, column=6)
+M6 = tk.Button(text="M6", bg='green', activebackground='white').grid(row=16, column=7)
+M7 = tk.Button(text="M7", bg='green', activebackground='white').grid(row=16, column=8)
+
+#Row N
+rowN = tk.Label(text="Row N:").grid(row=17, column=0)
+N1 = tk.Button(text="N1", bg='green', activebackground='white').grid(row=17, column=1)
+N2 = tk.Button(text="N2", bg='green', activebackground='white').grid(row=17, column=2)
+N3 = tk.Button(text="N3", bg='green', activebackground='white').grid(row=17, column=3)
+Nasile = tk.Label(text="       ").grid(row=17, column=4)
+N4 = tk.Button(text="N4", bg='green', activebackground='white').grid(row=17, column=5)
+N5 = tk.Button(text="N5", bg='green', activebackground='white').grid(row=17, column=6)
+N6 = tk.Button(text="N6", bg='green', activebackground='white').grid(row=17, column=7)
+N7 = tk.Button(text="N7", bg='green', activebackground='white').grid(row=17, column=8)
+
+#Row O
+rowO = tk.Label(text="Row O:").grid(row=18, column=0)
+O1 = tk.Button(text="O1", bg='green', activebackground='white').grid(row=18, column=1)
+O2 = tk.Button(text="O2", bg='green', activebackground='white').grid(row=18, column=2)
+O3 = tk.Button(text="O3", bg='green', activebackground='white').grid(row=18, column=3)
+Oasile = tk.Label(text="       ").grid(row=18, column=4)
+O4 = tk.Button(text="O4", bg='green', activebackground='white').grid(row=18, column=5)
+O5 = tk.Button(text="O5", bg='green', activebackground='white').grid(row=18, column=6)
+O6 = tk.Button(text="O6", bg='green', activebackground='white').grid(row=18, column=7)
+O7 = tk.Button(text="O7", bg='green', activebackground='white').grid(row=18, column=8)
+
+#Row P
+rowP = tk.Label(text="Row P:").grid(row=19, column=0)
+P1 = tk.Button(text="P1", bg='green', activebackground='white').grid(row=19, column=1)
+P2 = tk.Button(text="P2", bg='green', activebackground='white').grid(row=19, column=2)
+P3 = tk.Button(text="P3", bg='green', activebackground='white').grid(row=19, column=3)
+Pasile = tk.Label(text="       ").grid(row=19, column=4)
+P4 = tk.Button(text="P4", bg='green', activebackground='white').grid(row=19, column=5)
+P5 = tk.Button(text="P5", bg='green', activebackground='white').grid(row=19, column=6)
+P6 = tk.Button(text="P6", bg='green', activebackground='white').grid(row=19, column=7)
+P7 = tk.Button(text="P7", bg='green', activebackground='white').grid(row=19, column=8)
+
+#Row Q
+rowQ = tk.Label(text="Row Q:").grid(row=20, column=0)
+Q1 = tk.Button(text="Q1", bg='green', activebackground='white').grid(row=20, column=1)
+Q2 = tk.Button(text="Q2", bg='green', activebackground='white').grid(row=20, column=2)
+Q3 = tk.Button(text="Q3", bg='green', activebackground='white').grid(row=20, column=3)
+Qasile = tk.Label(text="       ").grid(row=20, column=4)
+Q4 = tk.Button(text="Q4", bg='green', activebackground='white').grid(row=20, column=5)
+Q5 = tk.Button(text="Q5", bg='green', activebackground='white').grid(row=20, column=6)
+Q6 = tk.Button(text="Q6", bg='green', activebackground='white').grid(row=20, column=7)
+Q7 = tk.Button(text="Q7", bg='green', activebackground='white').grid(row=20, column=8)
+
+#Row R
+rowR = tk.Label(text="Row R:").grid(row=21, column=0)
+R1 = tk.Button(text="R1", bg='green', activebackground='white').grid(row=21, column=1)
+R2 = tk.Button(text="R2", bg='green', activebackground='white').grid(row=21, column=2)
+R3 = tk.Button(text="R3", bg='green', activebackground='white').grid(row=21, column=3)
+Rasile = tk.Label(text="       ").grid(row=21, column=4)
+R4 = tk.Button(text="R4", bg='green', activebackground='white').grid(row=21, column=5)
+R5 = tk.Button(text="R5", bg='green', activebackground='white').grid(row=21, column=6)
+R6 = tk.Button(text="R6", bg='green', activebackground='white').grid(row=21, column=7)
+R7 = tk.Button(text="R7", bg='green', activebackground='white').grid(row=21, column=8)
+
+#Row S
+rowS = tk.Label(text="Row S:").grid(row=22, column=0)
+S1 = tk.Button(text="S1", bg='green', activebackground='white').grid(row=22, column=1)
+S2 = tk.Button(text="S2", bg='green', activebackground='white').grid(row=22, column=2)
+S3 = tk.Button(text="S3", bg='green', activebackground='white').grid(row=22, column=3)
+Sasile = tk.Label(text="       ").grid(row=22, column=4)
+S4 = tk.Button(text="S4", bg='green', activebackground='white').grid(row=22, column=5)
+S5 = tk.Button(text="S5", bg='green', activebackground='white').grid(row=22, column=6)
+S6 = tk.Button(text="S6", bg='green', activebackground='white').grid(row=22, column=7)
+S7 = tk.Button(text="S7", bg='green', activebackground='white').grid(row=22, column=8)
+
+#Row T
+rowT = tk.Label(text="Row T:").grid(row=23, column=0)
+T1 = tk.Button(text="T1", bg='green', activebackground='white').grid(row=23, column=1)
+T2 = tk.Button(text="T2", bg='green', activebackground='white').grid(row=23, column=2)
+T3 = tk.Button(text="T3", bg='green', activebackground='white').grid(row=23, column=3)
+Tasile = tk.Label(text="       ").grid(row=23, column=4)
+T4 = tk.Button(text="T4", bg='green', activebackground='white').grid(row=23, column=5)
+T5 = tk.Button(text="T5", bg='green', activebackground='white').grid(row=23, column=6)
+T6 = tk.Button(text="T6", bg='green', activebackground='white').grid(row=23, column=7)
+T7 = tk.Button(text="T7", bg='green', activebackground='white').grid(row=23, column=8)
+
+
+tk.mainloop()
